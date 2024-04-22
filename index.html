@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Still Photo Capture Demo</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="contentarea">
+        <h1>MDN - navigator.mediaDevices.getUserMedia(): Still photo capture demo</h1>
+        <p>
+        この例では、内蔵ウェブカメラを使用してメディアストリームを設定し、そのストリームから画像を取得し、その画像を使用してPNGを作成する方法を示します。
+        </p>
+        <div class="camera">
+        <video id="video">ビデオストリームを利用できません。</video>
+        <button id="startbutton">写真を撮る</button>
+        </div>
+        <canvas id="canvas"> </canvas>
+        <div class="output">
+        <img id="photo" alt="スクリーンキャプチャはこのボックスに表示されます。" />
+        </div>
+        <p>
+    </div>
+</body>
+</html>
